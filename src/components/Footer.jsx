@@ -1,6 +1,6 @@
 import { Mail, Phone } from 'lucide-react'
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className="bg-stone-950 text-white py-12 px-6">      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
@@ -52,3 +52,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+export default Footer

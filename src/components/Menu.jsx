@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const enderecoApi = 'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood'
 
-export default function MenuHighlights() {
+const Menu = () => {
   const [pratos, setPratos] = useState([])
   const [erro, setErro] = useState(false)
 
@@ -37,3 +37,5 @@ export default function MenuHighlights() {
     </section>
   )
 }
+
+export default Menu

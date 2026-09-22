@@ -4,7 +4,7 @@ const beneficios = [
   ['Pagamento fácil', 'Cartão, Pix ou carteira digital — você escolhe como pagar.'],
 ]
 
-export default function About() {
+const Sobre = () => {
   return (
     <section id="sobre" className="py-24 px-6 bg-orange-50">
       <div className="max-w-6xl mx-auto">
@@ -25,3 +25,5 @@ export default function About() {
     </section>
   )
 }
+
+export default Sobre

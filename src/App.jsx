@@ -1,10 +1,10 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
-import About from './components/About'
-import Features from './components/Features'
-import MenuHighlights from './components/MenuHighlights'
-import Testimonials from './components/Testimonials'
-import ContactForm from './components/ContactForm'
+import Sobre from './components/Sobre'
+import Funcionalidades from './components/Funcionalidades'
+import Menu from './components/Menu'
+import Avaliacoes from './components/Avaliacoes'
+import Formulario from './components/Formulario'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -13,11 +13,11 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Features />
-        <MenuHighlights />
-        <Testimonials />
-        <ContactForm />
+        <Sobre />
+        <Funcionalidades />
+        <Menu />
+        <Avaliacoes />
+        <Formulario />
       </main>
       <Footer />
     </>

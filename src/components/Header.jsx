@@ -8,7 +8,7 @@ const links = [
   ['#contato', 'Contato'],
 ]
 
-export default function Header() {
+const Header = () => {
   const [menuAberto, setMenuAberto] = useState(false)
 
   const [rolar, setRolar] = useState(false)
@@ -63,3 +63,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header

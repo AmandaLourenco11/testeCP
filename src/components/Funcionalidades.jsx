@@ -7,7 +7,7 @@ const funcionalidades = [
   [CreditCard, 'Pagamento integrado', 'Pague direto no app, sem precisar de dinheiro na entrega.'],
 ]
 
-export default function Features() {
+const Funcionalidades = () => {
   return (
     <section id="funcionalidades" className="py-24 px-6 bg-rose-700 text-white">
       <div className="max-w-6xl mx-auto">
@@ -28,3 +28,5 @@ export default function Features() {
     </section>
   )
 }
+
+export default Funcionalidades
